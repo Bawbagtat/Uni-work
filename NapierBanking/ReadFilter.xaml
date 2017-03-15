@@ -1,0 +1,17 @@
+﻿<Window x:Class="NapierBanking.ReadFilter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ReadFilter" Height="334.615" Width="520.9">
+    <Grid>
+        <ListBox x:Name="messageListBox" HorizontalAlignment="Left" Margin="12,10,0,86" Width="486" SelectionChanged="messageListBox_SelectionChanged"/>
+        <Label Content="Filter by" HorizontalAlignment="Left" Height="26" Margin="12,218,0,0" VerticalAlignment="Top" Width="130"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="397,266,0,0" VerticalAlignment="Top" Width="90" Click="Button_Click_1"/>
+        <RadioButton x:Name="sms_FilterBtn" Content="SMS" HorizontalAlignment="Left" Margin="122,258,0,0" VerticalAlignment="Top" Checked="sms_FilterBtn_Checked"/>
+        <RadioButton x:Name="email_FilterBtn" Content="Email" HorizontalAlignment="Left" Margin="193,258,0,0" VerticalAlignment="Top" Checked="email_FilterBtn_Checked"/>
+        <RadioButton x:Name="tweet_FilterBtn" Content="Tweet" HorizontalAlignment="Left" Margin="260,258,0,0" VerticalAlignment="Top" Checked="tweet_FilterBtn_Checked"/>
+        <RadioButton x:Name="sir_FilterBtn" Content="S.I.R" HorizontalAlignment="Left" Margin="332,258,0,0" VerticalAlignment="Top" Checked="sir_FilterBtn_Checked"/>
+        <RadioButton x:Name="all_FilterBtn" Content="All" HorizontalAlignment="Left" Margin="58,258,0,0" VerticalAlignment="Top" Checked="all_FilterBtn_Checked"/>
+        <Button x:Name="viewBtn" Content="View Message" HorizontalAlignment="Left" Margin="397,228,0,0" VerticalAlignment="Top" Width="90" Click="viewBtn_Click"/>
+
+    </Grid>
+</Window>

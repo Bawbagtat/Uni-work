@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f6b78750-f94c-47cf-96d6-43565f780207"
+  name="Properties"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9d4b265f-b845-42a2-ae4c-278e0170d7b5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNapierBanking.Properties"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="697d4b7e-359c-4b7d-9a47-036724092979"
+        name="Resources"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f945d014-0dcc-41c7-94cb-9e123075d500"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DResources"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a8d85713-eaea-478e-99fa-ff8ae1958e50"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9db0e38c-bbbc-4bed-9a89-0be184f6728e">
+                <propertyInstance
+                  Id="5eb736e6-00f4-4300-9547-acaf89c5b17a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7035e71-7887-407e-a26c-9bc3a9be39a0">
+                <propertyInstance
+                  Id="18be670d-5231-41dd-97c4-2fedb5acf8f6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a4aafa2-9abf-4d13-9e0c-9b3001357896">
+                <propertyInstance
+                  Id="8c7fb38f-ff49-44f9-a4a6-8ce2ef8787f8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92c86fa2-e2e6-4447-b52e-d1bcb7eadb99">
+                <propertyInstance
+                  Id="737cd82d-eb5e-498c-88b3-8b375023003a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79505342-8ac0-44a1-ad33-5b24af847703">
+                <propertyInstance
+                  Id="17254486-0810-470f-a8e4-ed672a006306"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="575e4680-d920-4d5b-9390-f1f14192f1cf"
+            name="ResourceManager"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="717b02cd-9f1a-4770-9aa6-2fb3f355c69e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DResources Member%3DResourceManager"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="30f4695a-48f3-4722-a6c5-d172702e2322"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2d558d3-0c28-48b3-9c35-8184e92dde2d">
+                    <propertyInstance
+                      Id="2c4d8d4a-1f0f-4247-b1ae-dc350b2b05d1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d297d896-a8dc-4b46-8ac2-7b0fcf177e71">
+                    <propertyInstance
+                      Id="43f27807-c276-48e1-9690-abe2c594a284"
+                      name="Get"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="000c4500-5d21-4f2a-af3f-ab96d4e34ca5">
+                    <propertyInstance
+                      Id="f05deaf1-79e1-4b10-9394-11acdad5575b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44a97e5c-e8ae-4d71-845b-03c892a7a5c5">
+                    <propertyInstance
+                      Id="2da235b2-7063-4e6a-af64-be5b6558ddf2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5857459-eb5e-43c0-9e9e-12994a41516e">
+                    <propertyInstance
+                      Id="70c50010-0790-4d1f-8c7a-724b381e52f5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7342095-e3ab-448e-bd1f-036f3a4c6a55">
+                    <propertyInstance
+                      Id="b21176c8-bf54-46cd-a00c-350f299279e4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="766ecb7e-746d-4b21-8bb6-c1cc8c2828e4">
+                    <propertyInstance
+                      Id="badb5850-f333-4044-8aea-91f3eb8c70b6"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="17435014-f714-4e77-a55b-c52b2576c548"
+                LastKnownName="ResourceManager"
+                LastKnownLocation="Package1_0158.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="52243b73-a250-4371-a7fd-cc65c06caea7"
+            name="Culture"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="32306c46-aa25-4164-b915-034b563ccbb8"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DResources Member%3DCulture"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="69b55086-7f2c-4c50-b9a6-332fc110f13a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f1ad096-4ace-47bb-be1a-6fb0d9779a40">
+                    <propertyInstance
+                      Id="db2023af-dfde-4d43-ae1c-e3301ffbbb04"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86db15ca-2848-4269-89d9-508ee5183bf7">
+                    <propertyInstance
+                      Id="2a56d6d1-150e-40f1-ba27-66b943ebdbb7"
+                      name="Get"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c38874ea-1915-4bbb-8574-83cf9e4ee863">
+                    <propertyInstance
+                      Id="49fc56f5-a5f4-4b29-9f70-0ecd87d79525"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="437bdaf2-91ef-4b7a-a68d-6c3c585e7fcc">
+                    <propertyInstance
+                      Id="6eb2ee5b-0897-4971-bce6-a07f19971698"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cad73bdb-d738-4a66-b684-df19413d01e5">
+                    <propertyInstance
+                      Id="4333d228-a2c0-407a-883f-ae774020da02"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ebfee75-c79b-4f48-a65f-e89bd91e413d">
+                    <propertyInstance
+                      Id="f2109c20-1165-4412-bef4-d4dfe7548e6a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b927f07-1028-4520-85c8-ede8d728a709">
+                    <propertyInstance
+                      Id="52067870-6581-43c3-b832-caf3bdcc0b61"
+                      name="Set"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="8fcee0ad-0e49-41f0-a705-cc1e79fd3e88"
+                LastKnownName="CultureInfo"
+                LastKnownLocation="Package2_0158.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bfea6b7d-ad26-4b12-9e3a-6e64fb2ba93f"
+            name="resourceMan"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2cb69c4e-9b82-47d7-ac0a-da2507554e14"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DResources Member%3DresourceMan"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2609344f-336b-4c71-a6a4-74f3eceacec7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5d06375-f0d1-4c97-b08e-a66b97004f68">
+                    <propertyInstance
+                      Id="6077c2ea-f287-4c2e-bd53-a7ca7b17c9ec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22da5063-6bfd-4c7d-889d-ae30fae9367c">
+                    <propertyInstance
+                      Id="f8d75f27-36c7-4ae1-92ac-6e1ad29cdc32"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5877a33a-b80e-405d-b12e-7c0812a3923c">
+                    <propertyInstance
+                      Id="2bd446ef-0894-4179-aa80-c018452fbcae"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="318602f4-dac5-435b-a2d4-18da27afc826">
+                    <propertyInstance
+                      Id="52081398-13a9-4ee3-ba8a-e7696a489636"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18b97c6b-1491-4770-b84d-cfbb2b5cc83b">
+                    <propertyInstance
+                      Id="41bf322b-6807-4bf6-98cf-274c64987a03"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="17435014-f714-4e77-a55b-c52b2576c548"
+                LastKnownName="ResourceManager"
+                LastKnownLocation="Package1_0158.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c4929a74-8a1a-4782-9a1f-ea56bbb2b5e8"
+            name="resourceCulture"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="96f227d4-8747-48cd-9c23-9b7d37379476"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DResources Member%3DresourceCulture"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="74f43efb-a96d-455d-b9be-04a7afd0caf2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4677fc78-10ec-43ed-8912-262b7ffd24f2">
+                    <propertyInstance
+                      Id="4e897f45-218f-49f3-920a-038caa98a0dd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c078ca57-14a9-482e-9aa9-a3eea7070c35">
+                    <propertyInstance
+                      Id="97d821f4-4d2b-4739-b30a-62336f04c91e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b12306a1-6159-4f68-8353-bb1172e93afe">
+                    <propertyInstance
+                      Id="c7b75e10-0e46-47ba-a691-1794b33f7798"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d79c7a7-1fa9-4e49-9887-00429aea53bb">
+                    <propertyInstance
+                      Id="6e431791-5d4a-4bc2-a7d6-b21a5cd3c1d0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="faea68f7-01d1-478e-a3b2-a2513db751e8">
+                    <propertyInstance
+                      Id="af7a8244-7f22-4877-aa09-2585154a97aa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="8fcee0ad-0e49-41f0-a705-cc1e79fd3e88"
+                LastKnownName="CultureInfo"
+                LastKnownLocation="Package2_0158.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="cc1203c3-479f-491e-af35-ee9337954b1a"
+            name="Resources"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ddb8b7fe-760d-4249-9701-db7578b5280c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DResources Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6a5406c3-b8e9-42cd-8810-8a8eb6faf728"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a168add-399e-4d17-ae8a-63285baadb6a">
+                    <propertyInstance
+                      Id="e5f60e57-e849-48ba-8fa5-72d9c8e99090"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d657e8c4-d3d2-48d4-afe7-c47611257013">
+                    <propertyInstance
+                      Id="2d3dc5f4-a2bd-411c-82a3-106a27f7acee"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4fdec25-14e6-44c1-87e3-a212f6b57fae">
+                    <propertyInstance
+                      Id="aa4559d2-2074-4697-abe0-19c9a861222f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="624301cf-035d-4163-9915-ab863085aca4">
+                    <propertyInstance
+                      Id="7bb91e79-cd3b-4639-8833-f35d62cb7a0c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eaa065e-ff19-4322-a68d-91370d8332c9">
+                    <propertyInstance
+                      Id="2e507ee8-b36b-4b0d-a86b-063866fb01e6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="061134a8-a9fe-487e-9e18-3d309b5a6ddc">
+                    <propertyInstance
+                      Id="d36d19e3-988d-468a-96b7-822b3fafdafd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6bc760f4-4bdb-4110-aef9-b34958e1e9f9"
+        name="Settings"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a7620e82-aac6-4e7d-9318-427c47b17538"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DSettings"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="aed8922f-ba08-41ed-91e5-08aab1ed1321"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b818193c-794b-4ec1-a08c-3250f109339b">
+                <propertyInstance
+                  Id="1f2a1c68-a336-41d8-a66a-8254e475c7f0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78b0e0f6-ddce-413c-8cf5-6bab218d8594">
+                <propertyInstance
+                  Id="f5f77306-bbc7-4660-a91a-4137b754aa84"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87c9bc3f-90fd-45fe-9ec8-13d73d8ed101">
+                <propertyInstance
+                  Id="61cc735d-6478-45b9-b8db-755b9dd18d64"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c5338d7-c59f-473f-97f7-38bf102436e8">
+                <propertyInstance
+                  Id="4e036c9d-5f6e-490a-b126-3e9a8164cd8b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d40b22d5-0631-4a2f-99f7-5123b58e5a45">
+                <propertyInstance
+                  Id="cce1d7d8-d8f8-4ec3-8102-4638606231ae"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="456b1f95-ec5d-4d0d-903c-91315672ace1"
+            isSubstitutable="false">
+            <classMoniker
+              Id="df77e980-6be0-4216-b3ba-d9294ae535f5"
+              LastKnownName="ApplicationSettingsBase"
+              LastKnownLocation="Package3_0158.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="8b8eb03d-351c-481f-a4bb-ce4fc38f6771"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="Default"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6bc760f4-4bdb-4110-aef9-b34958e1e9f9"
+              LastKnownName="Settings"
+              LastKnownLocation="Package_0158.uml" />
+            <description>Property Default references type Settings.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b9b2e24e-fb1e-47d8-a444-2d719696c5a3"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e26d9e17-e8e5-41b1-be6e-6fd8d519f722"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0cc255e6-670b-47da-aea1-63f147fa43c0"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ba72232e-1dc1-463c-b4d0-a9f124971eb8"
+                  name="Default"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="62b0ac5e-5110-4e1a-acb3-c7134578e335"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3db71006-a466-4504-bf6a-722887696078"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="fd9d4c0f-f16f-4256-be70-1e2b7a39b3f3"
+            name="Default"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="643756bd-c0d1-47e7-8fac-6558d0b33661"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DSettings Member%3DDefault"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="de6bc9e8-eec8-4fc8-8f13-6aa4f2e4d719"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f623e3ac-a21e-403d-b257-918df4389f82">
+                    <propertyInstance
+                      Id="6bc70de6-d108-45b5-9bff-5c877681f6e1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e01b3e2d-462b-4438-a433-20f3d85e07b8">
+                    <propertyInstance
+                      Id="9b809c18-0e47-4b3c-a8b8-acedbae0c6e0"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d613d976-d5cd-4546-bc92-cd708ba552fa">
+                    <propertyInstance
+                      Id="7509e455-c649-4fb7-99f1-177a5597a5ac"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ff3f236-3224-4d9a-a527-2ed3613713f4">
+                    <propertyInstance
+                      Id="5f844e8d-e834-4095-970a-c702453d286d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fad5011-279d-4779-88e3-ae7b71350aa9">
+                    <propertyInstance
+                      Id="44eeda6e-ff1b-4826-acea-e4909cf9bba4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9557f428-976e-4c5b-b7a5-37c04b4018b0">
+                    <propertyInstance
+                      Id="6fb84a97-863c-4558-b2da-55b683015142"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6de02bd6-d59b-4853-9952-503fca30a58c">
+                    <propertyInstance
+                      Id="8de03c48-95ab-4e31-81e5-d3e64ef1f15d"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6bc760f4-4bdb-4110-aef9-b34958e1e9f9"
+                LastKnownName="Settings"
+                LastKnownLocation="Package_0158.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7856a5ec-0dfe-4bf1-b1da-7a08e71da6f4"
+            name="defaultInstance"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c7b490bd-4581-4d32-91bb-1d5894da3e1d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DSettings Member%3DdefaultInstance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="48d541b8-1b42-484e-bd25-3443cb4b6a65"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f5b40b4-80b5-4a36-b62f-c0f52fa975ed">
+                    <propertyInstance
+                      Id="e9c94ebd-ba02-4a62-82ec-e29dbb83dc08"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1df5b1fe-d2e7-45ea-b288-71bc12d34a11">
+                    <propertyInstance
+                      Id="564ac0f3-b352-4a7d-bde1-09ed7f517db3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4140a27-f5f8-49b8-bdba-99f9385b4963">
+                    <propertyInstance
+                      Id="7c1a0083-37b2-4e1e-a6b3-581d6203caaf"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfa13d9b-8185-4848-a7e9-8537405243df">
+                    <propertyInstance
+                      Id="d511a262-f06a-4d8c-b4b8-a70fbbf2798b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45e88e70-c443-4c5a-89ad-b8927848ea68">
+                    <propertyInstance
+                      Id="849e4584-880f-4eff-a068-782bcc06f750"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6bc760f4-4bdb-4110-aef9-b34958e1e9f9"
+                LastKnownName="Settings"
+                LastKnownLocation="Package_0158.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="27c449aa-9a09-4108-a336-2a65bfec821b"
+            name="Settings"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="976641ad-310e-4fbf-8f4c-31c586db6dc8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Properties Type%3DSettings Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e8df17c8-39ab-45f0-8703-67d0c371366c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="970481c7-5374-43fa-8125-ec1048810936">
+                    <propertyInstance
+                      Id="0ba95c7b-3523-41e2-aa4b-c8ad90441691"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f2c9fb7-b020-4f96-9bd4-d931db5ef152">
+                    <propertyInstance
+                      Id="7d54d2c7-a238-4256-bf89-b413e5040651"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f0de90c-ffce-45f6-9707-708f3b0db92a">
+                    <propertyInstance
+                      Id="dc78d55e-1e3f-4238-8836-32cc59afe197"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37072db8-ecb8-419c-9a3c-66cade441210">
+                    <propertyInstance
+                      Id="e2fa7ad2-b1e0-4425-b912-b7b62c54760f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e61ac4b7-605a-4a22-b3f0-0301440750c2">
+                    <propertyInstance
+                      Id="5b0bf8f2-d97a-4ad3-a72f-dab2c26cb253"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c403137-b1c0-4315-9473-110fc4f5fe32">
+                    <propertyInstance
+                      Id="70eeaa01-7358-4ce1-b751-8011e3c58987"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="76bc9a12-ab99-43bc-9773-b07484d50420"
+  name="Message"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d59b44a8-6941-484b-9aa1-ce627df3a17a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNapierBanking.Message"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="8474f9e6-ad6d-4ad1-95b0-bd6dec6a48e7"
+        name="Messages"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e15864b0-fa90-44ca-a112-16867540a834"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="33dfee4c-9e5e-4d2c-a06b-697d3da554cf"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce10b970-9ca0-4e4e-adac-3fc2a9fc7d1c">
+                <propertyInstance
+                  Id="f78cdb70-7943-4e48-b39a-acb62c798175"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86cad14d-60ce-495c-a301-6c80e7f20f30">
+                <propertyInstance
+                  Id="6b2033ca-473c-42e7-8842-844dec3f4633"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea67482e-3658-40e5-8192-c9988fcfadd9">
+                <propertyInstance
+                  Id="a2746379-a813-4a1d-a870-34b2ba1342c8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a4118eb-d3c4-41dd-8e74-fc8345737e4c">
+                <propertyInstance
+                  Id="d27bc358-f966-4601-824c-96e901ea7022"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6004b468-763b-4ab3-a765-79826be6c4b4">
+                <propertyInstance
+                  Id="c54e84d0-0f24-4d4d-9bfa-dd793d421dba"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="e69cdad1-dc3a-40c1-a0bf-6b917c21efef"
+            name="MessageHead"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b9e7ae0b-0cf4-4911-88ef-22a3b4a07422"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3DMessageHead"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="95dcc267-1e96-49a8-82eb-3cb0a7e704a9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20b5d5d2-ca8e-4798-9d75-a8589eaafe9f">
+                    <propertyInstance
+                      Id="bcc2e7f5-66ab-419b-9579-d5694aeab50a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b4fbed2-21c1-4274-8c74-6235c0113c0d">
+                    <propertyInstance
+                      Id="675b185c-8d8d-4eea-9176-5da4b66742db"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84414daf-f228-40e6-8d8f-5feb705b6ae6">
+                    <propertyInstance
+                      Id="42fcdd5f-0b86-4c42-8213-07d905d5e4c2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35073863-4695-486b-810c-41078081acbe">
+                    <propertyInstance
+                      Id="95c2b855-6e4d-4ab3-a862-237fc9dd9020"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e33debe-8195-427a-b8e5-fb186937c264">
+                    <propertyInstance
+                      Id="dba4d819-e972-46e7-96c4-c92c4fd552d8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="296555b1-f958-4ce4-b549-a8c16d1f2fc6">
+                    <propertyInstance
+                      Id="d0fff274-e042-49ac-9d9b-889f1476ab9a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33d7fa05-4ff5-4e6d-9b33-b8039af8f29e">
+                    <propertyInstance
+                      Id="78ae9478-a6ee-4572-baea-4925f0fe220b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7a6607f9-2bd7-4da5-bdca-bd667a8547cb"
+            name="MessageSender"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="be815c87-8786-4e09-a278-84e74f92b616"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3DMessageSender"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8fc20d2f-e0e8-459f-8a50-3071f42cdbd4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96dae4ad-ebb2-47f3-97fe-4112d5b24333">
+                    <propertyInstance
+                      Id="86ee99bc-3639-419a-b493-cd30231cc99e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="309e325c-e34e-48ef-923a-052bf746a1c5">
+                    <propertyInstance
+                      Id="71a5e623-e4be-41d0-8ca8-88f6f490cd07"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="246283c1-1766-4898-93f3-431b61400576">
+                    <propertyInstance
+                      Id="c5175735-a605-4477-9d1e-9a2efd359f99"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f6c328a-ce15-45eb-ad3c-924fa24ab240">
+                    <propertyInstance
+                      Id="f638cd49-6968-4c1f-bd50-0b6e0f0c41a2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89151c94-e834-46c2-bb64-bafdf9007bc6">
+                    <propertyInstance
+                      Id="093269b9-7190-497f-9f92-c5087b2436d9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="675bd7b0-f1f4-4bcd-87c0-47444ef956a2">
+                    <propertyInstance
+                      Id="e2161608-4f41-4611-9721-e53d72bc1948"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="000f1dba-06f8-4ce6-bab4-fb4ac1fd9842">
+                    <propertyInstance
+                      Id="67bfd9c3-1c95-403f-ac20-2d038db6feec"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="13d5bbfc-71ec-4673-aae0-33c1846dbfb2"
+            name="MessageSubject"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="174401cb-c9ab-440c-b4d8-a32c0162ab75"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3DMessageSubject"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="65f9cac0-a81f-4d59-b851-05b08acc2a50"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4b50d11-ab43-40c2-b2b0-2171fc5d40c0">
+                    <propertyInstance
+                      Id="839c898c-b068-44ea-9e2b-454a90f93f8e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0d235c8-47ca-4171-9f8b-4019e4e7890e">
+                    <propertyInstance
+                      Id="aa5dc6fb-13a6-42e6-919d-b91027c73124"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4591c83-5f89-4017-93ed-218d6b781017">
+                    <propertyInstance
+                      Id="614cce05-d12e-47f0-9756-0e4f55e56832"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc65a6e6-12d6-43b3-a57a-fc1f0c93f083">
+                    <propertyInstance
+                      Id="00698c9b-590a-4a9e-ba82-c61cbb5b0eeb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d01b679d-ab01-4087-b4f3-bb96b6a9f92f">
+                    <propertyInstance
+                      Id="11b63e33-d8b0-4861-ab66-6fcde1fdbdd1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5310032b-4216-455b-a1aa-a1a8e0442a43">
+                    <propertyInstance
+                      Id="0af31334-d748-4b54-a8ed-89bd113c95ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbbcf543-f2fb-486d-97c6-6bb44c94bb4a">
+                    <propertyInstance
+                      Id="1e2825f1-a54f-425b-b5ee-412ce94ae0a6"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e5b2473a-4cb6-4540-8457-7298b4485008"
+            name="MessageContent"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="73483443-859c-4a6e-8156-83a624c495a8"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3DMessageContent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="143bf5e6-72f4-4c4f-88e2-80937184f5a3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8573f347-d87c-4c0d-aebc-610b8662f911">
+                    <propertyInstance
+                      Id="10e09d27-5347-4840-8c1b-b958e168bdd1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab5134b7-781d-4ce0-9cb0-bcba6215dd4a">
+                    <propertyInstance
+                      Id="bd09b93b-18dd-45cb-a55b-4ea65a435017"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d724dcf-f1c6-427f-b6ec-0dba0efb705a">
+                    <propertyInstance
+                      Id="e6f924d4-abd3-4bb7-901c-1f39baed198b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f05d7cb-da12-4b8c-b3e4-3abee7620a8f">
+                    <propertyInstance
+                      Id="b318bc1a-32e1-4f75-b58c-a24d2b027609"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a046e0a-012a-4871-8fab-908098d8cd22">
+                    <propertyInstance
+                      Id="a66f0811-77b6-46d1-911a-b050d27c49d9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fa3d42a-2edc-4572-8ca5-ac8f3f2f4685">
+                    <propertyInstance
+                      Id="bbe88da3-f50b-4a3d-86b8-439428a01ff4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b3b8d31-19a0-4943-806f-fc06492823bc">
+                    <propertyInstance
+                      Id="e72d6825-4b01-42c3-b372-b8baad1c4cad"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankModel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ad8518d1-9683-4e6b-9234-45609e033ed2"
+            name="Messages"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0d35ed83-55d6-463a-9133-02ddd51c0329"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3e2e8ccd-ac90-4197-8609-3c7dc6d16c4b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04b96f06-91b7-45d3-8ece-4cc9f8f07a2b">
+                    <propertyInstance
+                      Id="ccd81fd5-aad3-4c68-a38b-ef8e8465fa4f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94812dcc-5d3b-4d91-a669-5aefe52c53fe">
+                    <propertyInstance
+                      Id="71aecdf0-152e-4e91-99da-26c2b21d2802"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="027505cb-ac55-4088-8354-4792fc325595">
+                    <propertyInstance
+                      Id="e0c31f2a-abb2-4801-991c-56472fa796b7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a375adf-4ca9-4ec2-adf3-50cce6268d08">
+                    <propertyInstance
+                      Id="7dd1a411-740c-4b69-8d55-2b10b4979678"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="446d2cb6-738e-4318-bbf5-afb8e7b47037">
+                    <propertyInstance
+                      Id="f0db223f-715d-4a3d-80e5-d45abc51d4b6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fd707fc-bee1-411b-b6cb-896147a231ec">
+                    <propertyInstance
+                      Id="619d575c-822c-4d9d-b70b-3611ee0524d9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5a2650d4-eb6b-4d97-a7d6-84f07751f318"
+                  name="header"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="824a3978-a2bd-4dab-a267-7893ecf969a7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dheader"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f02a1a77-8b67-4bee-a51c-d30484391ff9"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dda77cd7-f088-4b03-85af-20b7c5a687a7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c794f6fe-97dc-4cc1-a60f-df3d4301fa13"
+                  name="subject"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4a3436c0-ce93-4508-b174-a6e475577dcf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dsubject"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d77ea4f0-3d00-40c6-81d1-38d1e331d556"
+                  name="content"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0e11e7e7-dba6-46fa-82cc-2196b911dc5c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dcontent"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="62056d42-cb64-4896-b9cc-6d5d8631fa96"
+            name="Messages"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a4ee7cbb-8ca7-4bcb-86e7-79657c845b4d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DMessages Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d358597-b6a0-43db-9033-19d6cf3cffea"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="803a8c9a-23c6-4940-a39d-3f8fc6632cc7">
+                    <propertyInstance
+                      Id="5a7206d7-b1bf-4b6c-8071-233fc7c52255"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f375dfa-5929-4dc4-a77c-01234dd6557d">
+                    <propertyInstance
+                      Id="ea5bd010-9582-46a5-b64c-fd29ebc26715"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82045e1e-f5e7-4cf9-a57f-31ed7d46c096">
+                    <propertyInstance
+                      Id="1aedb34a-a4df-4197-80ec-a8f1965b7ddf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d55f818a-e238-41fa-b2f6-df7413038ad5">
+                    <propertyInstance
+                      Id="34355e9e-2550-4861-80e6-8b792738c9e0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02e697f3-f864-4863-a880-5ca1bb16e83c">
+                    <propertyInstance
+                      Id="4e788154-b76b-4d9e-a02a-dfd6398b0475"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c72c6657-7b65-41c7-9a6c-7916a379d68c">
+                    <propertyInstance
+                      Id="678f4604-95f7-43a2-9b31-1b2cde636333"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a5377749-9e7b-4cbe-bc48-40c4a59ecdd2"
+        name="textNonsense"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5e3bae04-8e50-4e49-9e00-cdd2764e3fab"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DtextNonsense"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="491c2c2a-5aaa-4b85-baa8-ad0998472422"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a98861b1-039e-437c-819a-a239a40f578c">
+                <propertyInstance
+                  Id="7c2e781f-6ffb-445f-9cd6-4032a4c1566c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="657d190f-c894-4809-9529-3283d929d1a7">
+                <propertyInstance
+                  Id="9f344ec7-922a-40ca-a237-ed1215c7de0b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79ef3e96-753c-4b9b-8e52-ef44e2e6f715">
+                <propertyInstance
+                  Id="a5054280-6c4a-4948-bff7-049eb791c51a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f9f84f0-688b-4668-ba84-e1d83e6f6a73">
+                <propertyInstance
+                  Id="22ae2218-c499-438e-8b20-22d2ff14b37f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7444d54-83df-4d67-adb3-2ae833dd5892">
+                <propertyInstance
+                  Id="1b6058ef-8017-4319-851b-3542d0f230e0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="fe21daea-6a59-4a94-94b3-3a0adbcee5fa"
+            name="textExpand"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f3cb0144-d899-4347-95d9-5a3fc3c50b33"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DtextNonsense Member%3DtextExpand"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="91a49e49-f25c-42b9-9884-05d5bea7bffe"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cf3baa9-203b-47a5-b502-48be292e81c6">
+                    <propertyInstance
+                      Id="47de62ef-152c-459f-9e7f-d4f230b7a021"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba217084-64a5-413b-bcc9-8b9ded2a0573">
+                    <propertyInstance
+                      Id="570b0d10-3a39-43ae-a81a-8489cc2daafb"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c65c9da3-a0d4-40cc-9fe0-6cf69d3c9ab1">
+                    <propertyInstance
+                      Id="f534d58a-7145-493a-906c-6df781ca16a6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfd0968e-a4c1-44ad-b896-bf7ceae58dc8">
+                    <propertyInstance
+                      Id="3519561d-cfbb-4f12-8d26-a70b985c462d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="891add03-e4d9-4da1-a70b-9dd3c9033956">
+                    <propertyInstance
+                      Id="0e2f945c-ed26-4022-96b7-e9a73df6427b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f63b5610-ba92-4006-8dac-dd1789322fcc">
+                    <propertyInstance
+                      Id="d8d62f4d-c071-4717-a5f8-11aca8905093"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a9c83bc-2359-45c6-b384-0aa3b7bcd713">
+                    <propertyInstance
+                      Id="87eb0879-eaf4-4244-bb02-196027316529"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ecfdabb8-cc8c-4193-b727-de56f566a29f"
+            name="textExpanded"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e174afb7-3245-4024-9a83-e2c456613145"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DtextNonsense Member%3DtextExpanded"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="daf18730-e9d3-4b6c-8405-9bfa1ec265f3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2754550-8980-43ef-9753-b04012869ea6">
+                    <propertyInstance
+                      Id="d8764ef3-c6b0-4e9a-8871-327a2183aecf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bdec1c3-9900-4952-a6ea-6cea5432f3cd">
+                    <propertyInstance
+                      Id="eeb5a8cf-def4-4bbd-8f7e-18fa11c517cc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4585323-3dfd-4a74-87d5-ee5ded0ee2aa">
+                    <propertyInstance
+                      Id="3180b457-522c-4b26-ac51-bc0536de378f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d67018c-66eb-4f93-918c-921be57f49ad">
+                    <propertyInstance
+                      Id="294080a5-8307-4168-8f32-605d74468ff4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23270712-5af0-4d7d-942e-60e87dbd23c9">
+                    <propertyInstance
+                      Id="cb01240f-83ae-4c2b-9c72-6fb12ff139c0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee98d450-891b-41fc-9ff4-e7a372955d5a">
+                    <propertyInstance
+                      Id="b3b2e734-d22c-4550-ad58-78b567a3f912"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76b652ec-d200-44bf-82dc-634400a206df">
+                    <propertyInstance
+                      Id="4bf620c7-415b-4da5-bb55-f1b4611ff339"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankModel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="54976c1d-743f-4c28-9bf0-9270a57081a8"
+            name="textNonsense"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b1136b2e-ef32-49b3-b518-53b30cf55d8a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DtextNonsense Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="91b82839-0fe5-4262-a19f-d48d46eb0edd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="494cdfe6-ee44-49d9-8155-53e3e31b982f">
+                    <propertyInstance
+                      Id="d59c51c2-dc75-4b32-866e-f7f2a019d052"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db25186c-6aa9-4432-b9e1-392fdc672600">
+                    <propertyInstance
+                      Id="cf82f0f0-8299-4200-94c1-42d7060f89b2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d894f7e6-e433-44b7-a435-23d5a9f3f0f2">
+                    <propertyInstance
+                      Id="02280845-5b67-488a-aa58-a3ee42b74e81"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d4bd157-f59e-449f-901e-25f546151c59">
+                    <propertyInstance
+                      Id="59b5f67e-7db0-436e-8621-fad831ab5bc1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bcd9eae-1dc2-41eb-8c2a-11c411d1089d">
+                    <propertyInstance
+                      Id="e0d9dd03-b019-4925-b0f4-2c4273a79b25"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd98ca95-e5e5-4da8-a189-e1b319b907a1">
+                    <propertyInstance
+                      Id="d5511651-6c84-4f62-a13e-b28423a2b0c9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0b487e93-1db4-4dfc-85a0-694e2acc331a"
+                  name="textIn"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c97c2eaa-0d8e-4feb-a913-80a3e3ee9056"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DtextNonsense Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DtextIn"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="198779e0-9e4a-43ed-9bc0-647696e35db3"
+                  name="textOut"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="257332ce-2b9f-4d76-8bc6-5d1738d01061"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FSE Coursework%2FNapierBanking%2FNapierBanking%2Fbin%2FDebug%2FNapierBanking.exe&quot; Namespace%3DNapierBanking.Message Type%3DtextNonsense Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DtextOut"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
